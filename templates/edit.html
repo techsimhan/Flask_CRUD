@@ -1,0 +1,32 @@
+{%extends 'base.html'%}
+
+{%block head%}
+
+{%endblock%}
+
+{%block body%}
+
+<div class = "row">
+    
+    <div class = "col-md4 offset-md-4">
+        <h4> Edit </h4>
+        <div class = "card-card-body">
+            <form action="/update/{{cities.id}}" method="POST">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="cityname" value = "{{cities.name}}" placeholder = "name">
+                </div>
+                <div class="form-group">
+                  <input type="number" class="form-control" name="population" value = "{{cities.population}}"  placeholder = "Population">
+                </div>
+                <div class ="form-group">
+                    <button type ="submit" class="btn btn-primary btn-block">
+                        Update 
+                      </button>
+                </div>
+                
+              </form>
+        </div>
+    </div>
+</div>
+
+{%endblock%}
