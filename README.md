@@ -13,6 +13,11 @@ Steps to the project set up is as follows
 6) pip3 install flask
 7) pip3 install pymysql
 8) pip3 install flask-mysql / flask-mysqldb  ---> this is used for "from flaskext.mysql import MySQL" in python code
-9) get the code from git put it in project folder or copy paste the code in vs code and make sure project folders are in place correctly.
-10) have CRUD fun
-11) please make sure mysql server is running, it is better to have Xampp installed
+9) Don't forget to run cities_mysql.sql by importing it in phpmyadmin to create tables. 
+10) get the code from git put it in project folder or copy paste the code in vs code and make sure project folders are in place correctly.
+11) have CRUD fun
+12) please make sure mysql server is running, it is better to have Xampp installed
+13) python3 app.py 
+14) ctrl-click the link provided after running the app.py you can use the project
+
+
